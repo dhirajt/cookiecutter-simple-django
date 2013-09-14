@@ -48,8 +48,8 @@ It prompts you for questions. Answer them::
     Resolving deltas: 100% (196/196), done.
     project_name (default is "project_name")? redditclone
     repo_name (default is "repo_name")? redditclone
-    author_name (default is "Your Name")? Marco Fucci
-    email (default is "Your email")? <your-email>
+    author_name (default is "Dhiraj Thakur")? Dhiraj Thakur
+    email (default is "dhirajthakur92@facebook.com")? <your-email>
     description (default is "A short description of the project.")? A reddit clone
     year (default is "Current year")? 2013
 
@@ -70,7 +70,7 @@ Create a GitHub repo and push it there::
     $ git init
     $ git add .
     $ git commit -m "first awesome commit!"
-    $ git remote add origin git@github.com:marcofucci/redditclone.git
+    $ git remote add origin git@github.com:dhirajt/redditclone.git
     $ git push -u origin master
 
 Now take a look at your repo. Awesome, right?
