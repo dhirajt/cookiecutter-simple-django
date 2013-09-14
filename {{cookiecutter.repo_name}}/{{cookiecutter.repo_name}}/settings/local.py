@@ -23,10 +23,10 @@ DATABASES = {
 if len(sys.argv) > 1 and 'test' in sys.argv[1]:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': '/tmp/{{cookiecutter.repo_name}}_test.db',
-            'USER': '',
-            'PASSWORD': '',
+            'ENGINE': 'django.db.backends.{{cookiecutter.development_db_adapter}}',
+            'NAME': '{{cookiecutter.development_db_schemaname}}',
+            'USER': '{{cookiecutter.development_db_user}}',
+            'PASSWORD': '{{cookiecutter.development_db_passwd}}',
             'HOST': '',
             'PORT': '',
         }
