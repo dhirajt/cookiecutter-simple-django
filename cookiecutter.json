@@ -6,7 +6,7 @@
     "description": "A short description of the project.",
     "year": "Current year",
     "domain_name": "Domain name",
-    "development_db":"mysql",
+    "development_db_adapter":"mysql",
     "development_db_schemaname":"defaultdb",
     "development_db_user":"root",
     "development_db_passwd":"sql123" 
