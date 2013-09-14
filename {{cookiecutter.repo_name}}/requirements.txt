@@ -2,5 +2,5 @@
 #	requirements.txt in the root directory of a project.
 django<1.6
 
-django
+Django
 -r requirements/production.txt
