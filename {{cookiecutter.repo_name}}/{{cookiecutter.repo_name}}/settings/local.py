@@ -9,14 +9,15 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '{{cookiecutter.repo_name}}',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.{{cookiecutter.development_db_adapter}}',
+        'NAME': '{{cookiecutter.development_db_schemaname}}',
+        'USER': '{{cookiecutter.development_db_user}}',
+        'PASSWORD': '{{cookiecutter.development_db_passwd}}',
+        'HOST': '',
         'PORT': '',
     }
 }
+
 
 
 # You might want to use sqlite3 for testing in local as it's much faster.
